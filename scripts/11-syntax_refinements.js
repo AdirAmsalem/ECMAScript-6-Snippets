@@ -62,6 +62,21 @@ try {
 		console.log("newSayHello(\"John\"):", newSayHello("John")); // newSayHello("John"): Hello John!
 	}
 
+
+	/* Old-style vs ES6 template strings */
+	{
+		let gender = "male";
+
+		// Old-style
+		let oldString = "John Doe is a " + gender + ".";
+
+		// ES6
+		let newString = `John Doe is a ${gender}.`; // Notice the 'backticks'
+
+		console.log("oldString:", oldString); // oldString: John Doe is a male.
+		console.log("newString:", newString); // newString: John Doe is a male.
+	}
+
 } catch(e) {
 	console.error(e.message);
 }
