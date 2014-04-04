@@ -10,7 +10,7 @@ try {
 		};
 
 		console.log("old sayHello():", sayHello()); // old sayHello(): Hello Guest 
-		console.log("old sayHello(\"Adir\"):", sayHello("Adir")); // old sayHello(): Hello Adir 
+		console.log("old sayHello(\"Adir\"):", sayHello("Adir")); // old sayHello("Adir"): Hello Adir 
 	}
 
 
@@ -21,7 +21,7 @@ try {
 		};
 
 		console.log("new sayHello():", sayHello()); // new sayHello(): Hello Guest 
-		console.log("new sayHello(\"Adir\"):", sayHello("Adir")); // new sayHello(): Hello Adir 
+		console.log("new sayHello(\"Adir\"):", sayHello("Adir")); // new sayHello("Adir"): Hello Adir 
 	}
 
 } catch(e) {
