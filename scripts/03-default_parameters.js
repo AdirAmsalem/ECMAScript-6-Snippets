@@ -21,7 +21,7 @@ try {
 		};
 
 		console.log("new sayHello():", sayHello()); // new sayHello(): Hello Guest 
-		console.log("new sayHello(\"Adir\"):", sayHello("Adir")); // new sayHello(): Hello Guest 
+		console.log("new sayHello(\"Adir\"):", sayHello("Adir")); // new sayHello(): Hello Adir 
 	}
 
 } catch(e) {
